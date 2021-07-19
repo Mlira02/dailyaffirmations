@@ -4,7 +4,7 @@ import com.marcos.dailyaffirmations.R
 import com.marcos.dailyaffirmations.model.Affirmation
 
 class Datasource {
-    private fun loadAffirmations(): List<Affirmation> {
+    fun loadAffirmations(): List<Affirmation> {
 
         return listOf<Affirmation>(
             Affirmation(R.string.affirmation1),
